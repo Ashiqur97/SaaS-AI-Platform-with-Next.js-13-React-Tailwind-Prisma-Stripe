@@ -55,7 +55,7 @@ const CodePage = () => {
     return (
         <div>
             <Heading 
-                title="Conversation"
+                title="Code Generation"
                 description="Our most advanced conversation model."
                 icon={MessageSquare}
                 iconColor="text-violet-500"
