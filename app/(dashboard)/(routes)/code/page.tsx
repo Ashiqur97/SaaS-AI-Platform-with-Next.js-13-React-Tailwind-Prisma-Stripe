@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import * as z from "zod";
-import { MessageSquare } from "lucide-react";
+import { Code } from "lucide-react";
 import { Heading } from "@/components/heading";
 import { useForm } from "react-hook-form";
 import { formSchema } from "@/components/constants";
@@ -57,7 +57,7 @@ const CodePage = () => {
             <Heading 
                 title="Code Generation"
                 description="Generate code using descriptive text."
-                icon={MessageSquare}
+                icon={Code}
                 iconColor="text-violet-500"
                 bgColor="bg-violet-500/10"
             />
